@@ -1,4 +1,6 @@
+require "pry"
 def my_each(x)
+  binding.pry
     while x >= 0 
     x -= 1 
   end
