@@ -2,8 +2,8 @@ require "pry"
 def my_each(x)
   binding.pry
   i = 0 
-    while i <
-    x -= 1 
+    while i < x.length
+    i = i + 1 
   end
 end
 
