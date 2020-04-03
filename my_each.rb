@@ -6,6 +6,7 @@ def my_each(x)
     i = i + 1 
     #binding.pry
   end
+  x
 end
 
  #def my_each(words) do |item|
