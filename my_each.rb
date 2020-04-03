@@ -1,6 +1,6 @@
 def my_each(x)
     while x >= 0 
-    puts x -= 1 
+    x -= 1 
   end
 end
 
