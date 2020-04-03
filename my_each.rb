@@ -2,8 +2,7 @@ require "pry"
 def my_each(x)
   i = 0 
     while i < x.length
-    puts x
-    puts x[i]
+    yield(x[i])
     i = i + 1 
     #binding.pry
   end
