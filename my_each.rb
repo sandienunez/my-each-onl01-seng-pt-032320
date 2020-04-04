@@ -1,15 +1,15 @@
+require "pry"
 def my_each(x)
-    while x >= 0 
-    puts x
-    x -= 1 
+  i = 0 
+  while i < x.length
+    yield(x[i])
+    i = i + 1 
+    #binding.pry
   end
+  x
 end
-
-def my_method do 
-   
-  my code goes in here
-  
-end
+#go over while and each #stackrace of error = imp part in error message = helps you suss out where im going wrroong
+#learnfail = alot of tests
  #def my_each(words) do |item|
     #expect(item).to equal(words[counter])
     #counter+=1
